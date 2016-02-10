@@ -1,0 +1,21 @@
+//
+// REVOLT!
+// BASE.HR
+//
+
+
+
+// Predefine the variables below to alter and enable specific features.
+
+$revo-hr-color:    $revo-base-border-color !default;
+$revo-hr-size:     1px !default;
+
+
+
+hr {
+    height: $revo-hr-size;
+    color: $revo-hr-color;
+    background: $revo-hr-color;
+    font-size: 0;
+    border: 0;
+}
